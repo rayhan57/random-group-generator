@@ -22,7 +22,7 @@ const InputPeople = ({ setParticipants }) => {
         id="participants"
         cols="40"
         rows={window.innerHeight > 400 ? "10" : "6"}
-        className="mx-auto mt-5 block resize-none rounded-md p-2 text-sm focus:outline-none lg:text-base"
+        className="mx-auto mt-5 block resize-none rounded-md p-2 text-sm focus:outline-none focus:ring focus:ring-blue-500 lg:text-base"
         placeholder="John Doe
 Jane Doe
 Adam Smith

@@ -42,7 +42,7 @@ const HomePage = () => {
           <NumberOfGroup amount={groupCount} setAmount={setGroupCount} />
 
           <button
-            className="mx-auto mt-3 block rounded-md border p-2 text-sm text-white hover:bg-blue-500 lg:mt-5 lg:text-base"
+            className="mx-auto mt-3 block rounded-md border p-2 text-sm text-white hover:bg-blue-500 active:scale-95 lg:mt-5 lg:text-base"
             onClick={generateGroups}
           >
             Generate
